@@ -1,9 +1,13 @@
 
 @media (max-width: 738px) {
   .illustration--text {
+    top: 15px;
     margin: auto;
     left: auto;
     position: relative;
+  }
+  .illustration--title {
+    font-size: 3em;
   }
   .container {
     min-width: 0;
@@ -18,12 +22,16 @@
 @media (max-width: 630px) {
   .responsive-nav {
     width: 100%;
-    margin: 15px 0;
+  }
+  .nav {
+    margin-top: 11px;
   }
   .responsive-nav--anchor {
     width: 268px;
-    padding: 19px 2px;
+    padding: 15px 2px;
     border-radius: 50px;
+    background-color: #c0e7ec;
+    margin: 12px 0;
   }
   .col-1-5 {
     width: 50%;
@@ -47,9 +55,9 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 600px) {
   .col-1-5 {
     width: 100%;
-    margin: 20px;
+    padding: 20px;
   }
 }
