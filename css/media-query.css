@@ -39,15 +39,22 @@
   .avatar {
     float: none;
     display: block;
-    margin: auto;
+    margin: 29px auto;
   }
   .landing-section--paragraph, .landing-section--title {
     text-align: center;
     padding: 13px 34px 0;
   }
+  .landing-section--paragraph {
+    margin-bottom: 50px;
+  }
+
+  .landing-section--height {
+    height: auto;
+  }
 }
 
-@media (max-width: 630px) {
+@media (max-width: 320px) {
   .col-1-5 {
     width: 100%;
     margin: 20px;
