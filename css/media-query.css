@@ -4,5 +4,52 @@
   .illustration--text {
     top: 20%;
   }
-  
+}
+
+@media (max-width: 738px) {
+  .illustration--text {
+    margin: auto;
+    left: auto;
+    position: relative;
+  }
+  .container {
+    min-width: 0;
+  }
+  .col-1-5 {
+    width: 33%;
+    float: none;
+    display: inline-block;
+  }
+}
+
+@media (max-width: 630px) {
+  .responsive-nav {
+    width: 100%;
+    margin: 15px 0;
+  }
+  .responsive-nav--anchor {
+    width: 268px;
+    padding: 19px 2px;
+    border-radius: 50px;
+  }
+  .col-1-5 {
+    width: 50%;
+    float: left;
+  }
+  .avatar {
+    float: none;
+    display: block;
+    margin: auto;
+  }
+  .landing-section--paragraph, .landing-section--title {
+    text-align: center;
+    padding: 13px 34px 0;
+  }
+}
+
+@media (max-width: 630px) {
+  .col-1-5 {
+    width: 100%;
+    margin: 20px;
+  }
 }
