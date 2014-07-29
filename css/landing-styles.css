@@ -150,6 +150,7 @@ a, a:hover {
   padding: 10px 20px;
   margin-top: 28px;
   width: 280px;
+  font-weight: 600;
 }
 
 .icon {
@@ -163,6 +164,10 @@ a, a:hover {
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
+}
+
+.margin-reset {
+  margin: 0 ! important;
 }
 
 /* Theme */ 

@@ -1,3 +1,84 @@
+/* Resume */
+
+@media (max-width: 937px) {
+  .header-II hgroup h1 {
+    top: 34%;
+    font-size: 2em;
+  }
+  .header-II hgroup p {
+    font-size: 1.15em;
+  }
+  .header-II hgroup > img {
+    height: 168px;
+    margin-left: 22px;
+    float: left;
+  }
+  .skills {
+    margin-top: 360px;
+  }
+  .container .main .timeline-education {
+    border-right: 0;
+  }
+  .container .main .timeline-education span {
+    left: 34px;
+    margin-right: 9px;
+    top: -67px;
+    vertical-align: top;
+  }
+  .container .main .timeline-education span:nth-child(3) {
+    left: 195px;
+  }
+  .container .main .timeline-education span:nth-child(3) hr {
+    width: 100px;
+    position: absolute;
+    top: 35px;
+    left: 9px;
+  }
+  
+  .container .main .timeline-education p:nth-child(1) {
+    position: relative;
+    top: 93px;
+  }
+  .container .main .timeline-education span h5 {
+    margin-top: 68px;
+  }
+  .container .main .timeline-education h3 {
+    top: -29px;
+    left: -6px;
+  }
+  .skills ul {
+    float: none;
+    margin-bottom: 100px;
+    margin: 0 auto 100px;
+    display: block;
+    width: 61%;
+  }
+  .skills h3 {
+    text-align: center;
+  }
+  .skills .chart {
+    float: none;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  .hobbies h3 {
+    text-align: center;
+  }
+  .hobbies ul {
+    margin: 50px auto 0;
+    display: block;
+  }
+  .hobbies ul li {
+    display: inline-block;
+    width: 40%;
+    margin: 5px 10px;
+  }
+  .hobbies .hexagon {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 
 @media (max-width: 738px) {
   .illustration--text {
@@ -16,6 +97,31 @@
     width: 33%;
     float: none;
     display: inline-block;
+  }
+  .header-II hgroup > img {
+    margin: auto;
+    display: block;
+    float: none;
+  }
+  
+  .header-II hgroup h1, .header-II hgroup p {
+    position: relative;
+    text-align: center;
+    display: block;
+    left: auto;
+    margin-top: 9px;
+    clear: both;
+  }
+  .header-II hgroup ul {
+    position: relative;
+    clear: both;
+    display: block;
+    margin-top: 30px;
+  }
+  .header-II hgroup ul li {
+    width: 50%;
+    float: left;
+    text-align: center;
   }
 }
 
@@ -53,6 +159,36 @@
   .landing-section--height {
     height: auto;
   }
+  
+  .footer-section--paragraph {
+    float: none;
+    text-align: center;
+  }
+  .footer-section a {
+    float: none;
+    display: block;
+    margin: auto;
+  }
+  .header-II hgroup ul li {
+    width: 100%;
+  }
+  .container .main .timeline-education span:nth-child(3) {
+    left: 30px;
+  }
+  .skills {
+    margin-top: 410px;
+  }
+  .skills .chart p {
+    top: -10px;
+    left: -15px;
+  }
+  .skills .chart p:nth-child(14) {
+    left: -132px;
+  }  
+  .skills .chart p:nth-child(15) {
+    right: -70px;
+    top: 233px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -61,3 +197,4 @@
     padding: 20px;
   }
 }
+
