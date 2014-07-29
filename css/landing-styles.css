@@ -305,3 +305,11 @@ a, a:hover {
   background-color: #b3dfdb;
   color: inherit;
 }
+
+/* Large displays */
+
+@media (min-width: 1213px) {
+  .illustration--text {
+    top: 20%;
+  }
+}

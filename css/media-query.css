@@ -1,10 +1,3 @@
-/* Large displays */
-
-@media (min-width: 1213px) {
-  .illustration--text {
-    top: 20%;
-  }
-}
 
 @media (max-width: 738px) {
   .illustration--text {
