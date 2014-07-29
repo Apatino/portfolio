@@ -1,0 +1,8 @@
+/* Large displays */
+
+@media (min-width: 1213px) {
+  .illustration--text {
+    top: 20%;
+  }
+  
+}

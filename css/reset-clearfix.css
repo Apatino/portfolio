@@ -70,8 +70,9 @@ table {
 }
 
 body {
-  font-family: Raleway, Verdana, "Helvetica neue";
+  font-family: 'Source Sans Pro', Verdana, 'Helvetica neue';
   font-size: 14px;
+  -webkit-font-smoothing: antialiased;
 }
 body * {
   -o-box-sizing: border-box;
@@ -80,14 +81,27 @@ body * {
   box-sizing: border-box;
 }
 
-img[src$=".gif"], img[src$=".png"] {
-  image-rendering: -moz-crisp-edges;
-  image-rendering: -o-crisp-edges;
-  image-rendering: -webkit-optimize-contrast;
-  image-rendering: crisp-edges;
-  -ms-interpolation-mode: nearest-neighbor;
-}
-
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+ 
+.clearfix {
+    display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+    display: block;
+}
+ 
+* html .clearfix {
+    height: 1%;
 }
