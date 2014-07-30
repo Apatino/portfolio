@@ -542,6 +542,8 @@ a {
   color: #14bacd;
   font-size: 1.2em;
   font-weight: 600;
+  position: relative;
+  z-index: 100;
 }
 .hobbies ul li:nth-child(2) div i {
   background-position: -931px 12px;
@@ -549,26 +551,11 @@ a {
 .hobbies ul li:nth-child(3) div i {
   background-position: -1074px 9px;
 }
-.hobbies ul li:nth-child(4) div i {
+.hobbies ul:nth-child(3) li:nth-child(1) div i {
   background-position: -1768px 9px;
 }
-.hobbies ul li:nth-child(5) div i {
-  background-position: -1308px 15px;
+.hobbies ul:nth-child(3) li:nth-child(2) div i {
+  background-position: -1313px 16px;
   background-size: 1740px;
 }
-.hobbies ul li:nth-child(6) div i {
-  background-position: -1646px -10px;
-}
-.hobbies ul li:nth-child(7) div i {
-  background-position: -1828px -7px;
-}
-.hobbies ul li:nth-child(8) div i {
-  background-position: -2014px -10px;
-}
-.hobbies ul li:nth-child(9) div i {
-  background-position: -2198px -10px;
-}
-.hobbies ul li:nth-child(10) div i {
-  background-position: -1995px 0px;
-  background-size: 2120px;
-}
+
