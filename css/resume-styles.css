@@ -379,10 +379,10 @@ a {
   z-index: 1000;
   width: 155px;
   -webkit-transform: rotate(-17deg);
-  -ms-transform: rotate(-32deg);
-  -moz-transform: rotate(-32deg);
-  -o-transform: rotate(-32deg);
-  transform: rotate(-32deg);
+  -ms-transform: rotate(-28deg);
+  -moz-transform: rotate(-28deg);
+  -o-transform: rotate(-28deg);
+  transform: rotate(-28deg);
   z-index: 1;
 }
 .skills .chart hr:nth-child(4) {
