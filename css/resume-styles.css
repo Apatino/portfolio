@@ -114,12 +114,22 @@ a {
 .container .main .time-line {
   margin-bottom: 90px;
 }
+
+.links-list {
+  margin-top: 6px;
+}
+
+.links-list li {
+  display: inline-block;
+  margin-right: 14px;
+}
+
 .container .main .timeline-education,
 .container .main .time-line {
   margin-top: 20px;
 }
 .container .main .timeline-education li,
-.container .main .time-line li {
+.container .main .time-line > li {
   margin-bottom: 50px;
   position: relative;
 }
