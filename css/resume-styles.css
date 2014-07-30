@@ -372,17 +372,17 @@ a {
 }
 .skills .chart hr {
   position: absolute;
-  top: 174px;
+  top: 171px;
   left: -2px;
   border: 0;
   border-bottom: 10px solid #f1f2f2;
   z-index: 1000;
   width: 155px;
-  -webkit-transform: rotate(-17deg);
-  -ms-transform: rotate(-17deg);
-  -moz-transform: rotate(-17deg);
-  -o-transform: rotate(-17deg);
-  transform: rotate(-32deg);
+  -webkit-transform: rotate(-27deg);
+  -ms-transform: rotate(-27deg);
+  -moz-transform: rotate(-27deg);
+  -o-transform: rotate(-27deg);
+  transform: rotate(-27deg);
   z-index: 1;
 }
 .skills .chart hr:nth-child(4) {

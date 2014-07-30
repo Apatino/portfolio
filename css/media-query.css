@@ -133,6 +133,9 @@
   .container .main .time-line span hr {
     width: 18px;
   }
+  .container .main .timeline-education {
+    width: 122%;
+  }
 }
 
 @media (max-width: 630px) {
@@ -189,20 +192,34 @@
     margin-top: 460px;
   }
   .skills .chart p {
-    top: -10px;
-    left: -15px;
+    top: -30px;
+    left: -35px;
   }
   .skills .chart p:nth-child(14) {
     left: -132px;
-  }  
+    top: 287px;
+  } 
   .skills .chart p:nth-child(15) {
-    right: -70px;
+    right: -40px;
     top: 233px;
+  }
+  .skills .chart p:nth-child(16) {
+    top: 0px;
+    left: auto;
+    right: -290px;
+  }
+  .skills .chart p:nth-child(17) {
+    top: -66px;
+    left: auto;
+    right: -77;
   }
   .skills .chart {
     -ms-transform: scale(0.8,0.8);
     -webkit-transform: scale(0.8,0.8);
     transform: scale(0.8,0.8);
+  }
+  .skills .chart p {
+    font-size: 1.3em;
   }
 }
 
