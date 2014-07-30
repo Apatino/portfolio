@@ -373,16 +373,24 @@ a {
 .skills .chart hr {
   position: absolute;
   top: 171px;
-  left: -2px;
+  left: -6px;
   border: 0;
   border-bottom: 10px solid #f1f2f2;
   z-index: 1000;
   width: 155px;
+<<<<<<< HEAD
   -webkit-transform: rotate(-17deg);
   -ms-transform: rotate(-28deg);
   -moz-transform: rotate(-28deg);
   -o-transform: rotate(-28deg);
   transform: rotate(-28deg);
+=======
+  -webkit-transform: rotate(-29deg);
+  -ms-transform: rotate(-29deg);
+  -moz-transform: rotate(-29deg);
+  -o-transform: rotate(-29deg);
+  transform: rotate(-29deg);
+>>>>>>> 4fce2ead4eb100b154413578b7618429d795b166
   z-index: 1;
 }
 .skills .chart hr:nth-child(4) {
