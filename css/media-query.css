@@ -125,13 +125,13 @@
   }
   .container .main {
     margin-left: 64px;
-    padding-left: 53px;
+    padding-left: 25px;
   }
   .container .main .time-line span {
-    left: -111px;
+    left: -85px;
   }
   .container .main .time-line span hr {
-    width: 37px;
+    width: 18px;
   }
 }
 
