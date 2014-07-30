@@ -200,13 +200,13 @@
     top: 287px;
   } 
   .skills .chart p:nth-child(15) {
-    right: -40px;
+    right: -20px;
     top: 233px;
   }
   .skills .chart p:nth-child(16) {
-    top: 0px;
+    top: 0;
     left: auto;
-    right: -290px;
+    right: -270px;
   }
   .skills .chart p:nth-child(17) {
     top: -66px;
@@ -282,4 +282,3 @@
     background-size: 1740px;
   }
 }
-
