@@ -465,14 +465,14 @@ a {
   left: auto;
 }
 .skills .chart p:nth-child(16) {
-  top: 10px;
+  top: -23px;
   left: auto;
-  right: -18px;
+  right: -280px;
 }
 .skills .chart p:nth-child(17) {
   top: -70px;
   left: auto;
-  right: -167;
+  right: -100px;
 }
 
 .hobbies {
