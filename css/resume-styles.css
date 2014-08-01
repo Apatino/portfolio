@@ -8,59 +8,59 @@ a {
   padding: 20px 0;
   margin-bottom: -7px;
 }
-.header-II hgroup {
+.header-II div {
   text-align: left;
   position: relative;
   zoom: 1;
 }
-.header-II hgroup:before {
+.header-II div:before {
   content: "\0020";
   display: block;
   height: 0;
   overflow: hidden;
 }
-.header-II hgroup:after {
+.header-II div:after {
   content: "\0020";
   display: block;
   height: 0;
   overflow: hidden;
   clear: both;
 }
-.header-II hgroup > img {
+.header-II div > img {
   height: 220px;
   float: left;
 }
-.header-II hgroup h1, .header-II hgroup p {
+.header-II div h1, .header-II div p {
   vertical-align: middle;
   position: absolute;
   left: 22%;
 }
-.header-II hgroup h1 {
+.header-II div h1 {
   top: 34%;
   font-size: 2.6em;
   text-transform: uppercase;
   font-weight: 600;
   color: #494949;
 }
-.header-II hgroup p {
+.header-II div p {
   top: 51%;
   font-size: 1.7em;
   color: #8b8985;
   letter-spacing: 0.1em;
   font-weight: 600;
 }
-.header-II hgroup ul {
+.header-II div ul {
   position: absolute;
   right: 0;
   top: 23%;
 }
-.header-II  hgroup ul li {
+.header-II  div ul li {
   margin: 5px 0;
   color: #494949;
   font-weight: 600;
   font-size: 1.3em;
 }
-.header-II  hgroup ul li i {
+.header-II  div ul li i {
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
@@ -72,13 +72,13 @@ a {
   width: 22px;
   margin-right: 4px;
 }
-.header-II  hgroup ul li:nth-child(2) i {
+.header-II  div ul li:nth-child(2) i {
   background-position: -146px -8px;
 }
-.header-II  hgroup ul li:nth-child(3) i {
+.header-II  div ul li:nth-child(3) i {
   background-position: -115px -8px;
 }
-.header-II  hgroup ul li:nth-child(4) i {
+.header-II  div ul li:nth-child(4) i {
   background-position: -78px -8px;
   height: 26px;
 }

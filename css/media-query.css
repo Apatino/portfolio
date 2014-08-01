@@ -1,14 +1,14 @@
 /* Resume */
 
 @media (max-width: 937px) {
-  .header-II hgroup h1 {
+  .header-II div h1 {
     top: 34%;
     font-size: 2em;
   }
-  .header-II hgroup p {
+  .header-II div p {
     font-size: 1.15em;
   }
-  .header-II hgroup > img {
+  .header-II div > img {
     height: 168px;
     margin-left: 22px;
     float: left;
@@ -98,13 +98,13 @@
     float: none;
     display: inline-block;
   }
-  .header-II hgroup > img {
+  .header-II div > img {
     margin: auto;
     display: block;
     float: none;
   }
   
-  .header-II hgroup h1, .header-II hgroup p {
+  .header-II div h1, .header-II div p {
     position: relative;
     text-align: center;
     display: block;
@@ -112,13 +112,13 @@
     margin-top: 9px;
     clear: both;
   }
-  .header-II hgroup ul {
+  .header-II div ul {
     position: relative;
     clear: both;
     display: block;
     margin-top: 30px;
   }
-  .header-II hgroup ul li {
+  .header-II div ul li {
     width: 50%;
     float: left;
     text-align: center;
@@ -182,7 +182,7 @@
     display: block;
     margin: auto;
   }
-  .header-II hgroup ul li {
+  .header-II div ul li {
     width: 100%;
   }
   .container .main .timeline-education span:nth-child(3) {
