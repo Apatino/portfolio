@@ -1146,12 +1146,12 @@ header .container, .landing--section.container, .footer.container {
 .brand {
   display: block; 
   float: left; 
-  padding: 14px 0 18px 0;
+  padding: 14px 0;
 }
 
 .landing--header {
-  margin-top: 83px;
-  height: 510px;
+  margin-top: 71px;
+  height: 460px;
   background: #000 url("../images/header-bg.png") no-repeat;
   background-size: cover;
   position: relative;
@@ -1193,7 +1193,7 @@ header .container, .landing--section.container, .footer.container {
   text-transform: uppercase;
   color: #3c5373;
   font: 500 15px/30px "open sans";
-  padding: 5px 17px 6px 15px ! important;
+  padding: 0 16px ! important;
   margin: 25px 8px;
   display: inline-block;
   letter-spacing: 1px;
@@ -1223,8 +1223,8 @@ header .container, .landing--section.container, .footer.container {
 .landing-banner {
   display: block;
   text-align: center;
-  font-size: 1.9em;
-  padding: 37px 0 50px;
+  font-size: 1.5em;
+  padding: 22px 0 25px;
   -webkit-font-smoothing: antialiased;
   color: #152e51;
   font-weight: 300;
