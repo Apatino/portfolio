@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Scritps -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
-    <script src="js/smooth-scroll.js"></script>
+    <script src="../js/smooth-scroll.js"></script>
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300,600,800" rel="stylesheet" type="text/css">
     <!-- CSS -->
@@ -32,9 +32,10 @@
         </a>
         <nav class="clearfix">
           <ul class="landing--nav navbar-nav navbar-right top-bar">
-            <li><a data-scroll data-options="easing: linear" href="#first">Cases</a></li>
-            <li><a data-scroll data-options="easing: linear" href="#second" class="active">idQ</a></li>
-            <li><a data-scroll data-options="easing: linear" href="#third" >Cases</a></li>
+            <li><a data-scroll data-options="easing: linear" href="#second">Use Cases</a></li>
+            <li><a data-scroll data-options="easing: linear" href="#third" class="active">How it Works</a></li>
+            <li><a data-scroll data-options="easing: linear" href="#fourth" >Try it</a></li>
+            <li><a data-scroll data-options="easing: linear" href="#fifth" >Contact Us</a></li>
           </ul>
         </nav>
       </div>
@@ -51,11 +52,11 @@
           <img src="../images/video-placeholder.jpg" width="100%" />
         </div>
       </div>
-      <div class="anchor" id="first"></div>
     </header>
     <span class="landing-banner light-blue-bg">Discover the benefits, every end-user benefit is also a relying party benefit.</span>
-  <div class="scroll-button"><a href="#" class="hide-text">scroll down</a></div>
+    <div class="scroll-button"><a data-scroll data-options="easing: linear"  href="#first"><i class="hide-text">scroll down</i></a></div>
     <section class="container margin-auto landing--section align-center padding-reset">
+      <div class="anchor" id="first" style="bottom: auto; top: -50px;"></div>
       <div class="slider">
         <img src="../images/phone-1.png" alt="iPhone screenshots" style="width: 25%; margin-top: 43px"/>
         <div style="width: 50%; display: inline-block; vertical-align: middle;">
@@ -94,31 +95,39 @@
         </div>
       </div>
     </section>
-    
     <section class="container margin-auto landing--section" style="text-align: right;">
-      <h2 class="landing--heading">your.id works at every level</h2>
+      <div class="anchor" id="second" style="bottom: auto; top: -50px;"></div>
+      <h2 class="landing--heading">your.id addresses</h2>
       <div class="row">
         <div class="col-xs-6">
-          <div class="dialogue-box">
-            <p>Netverify helps reduce fraud and facilitate safer money transfers. Netverify's authentication process minimizes risk while helping you meet anti-money laundering and know-your-customer (KYC) requirements. Netverify is not only for web and mobile applications .</p>
+          <div class="dialogue-box vertical-align-container">
+            <div class="vertical-align-content">
+              <p>Consumers use your.id to easily and reliably prove their identity, auto-fill website forms, and conduct transactions. All with the confidence that their identity is secure.</p>
+            </div>
           </div>
-          <h3 class="dialogue-box--heading"><i class="dialogue-box--icon-I"></i> Individual Users</h3>
+          <h3 class="dialogue-box--heading"><i class="dialogue-box--icon-I"></i> Consumers</h3>
         </div>
         <div class="col-xs-6">
-          <div class="dialogue-box">
-            <p>Netverify helps reduce fraud and facilitate safer money transfers. Netverify's authentication process minimizes risk while helping you meet anti-money laundering and know-your-customer (KYC) requirements. Netverify is not only for web and mobile applications .</p>
+          <div class="dialogue-box vertical-align-container">
+            <div class="vertical-align-content">
+              <p>Retailers can implement <strong>your.id</strong> in their brick and mortar establishments as well as their online presence to protect themselves and their customers from fraudulent purchases. Associates no longer need to examine and validate consumer identification documentation.</p>
+            </div>
           </div>
           <h3 class="dialogue-box--heading"><i class="dialogue-box--icon-II"></i> Retailers</h3>
         </div>
         <div class="col-xs-6">
-          <div class="dialogue-box">
-            <p>Netverify helps reduce fraud and facilitate safer money transfers. Netverify's authentication process minimizes risk while helping you meet anti-money laundering and know-your-customer (KYC) requirements. Netverify is not only for web and mobile applications .</p>
+          <div class="dialogue-box vertical-align-container">
+            <div class="vertical-align-content">
+              <p>Clients in the financial sector can use your.id to verify the identity of account owners and beneficiaries. By ensuring the identity of customers, financial transactions are more secure, and fraud is reduced. And understanding who their customers are helps <strong>your.id</strong> clients meet Know Your Customer (KYC) requirements.</p>
+            </div>
           </div>
           <h3 class="dialogue-box--heading"><i class="dialogue-box--icon-III"></i> Financial Institutions</h3>
         </div>
         <div class="col-xs-6">
-          <div class="dialogue-box">
-            <p>Netverify helps reduce fraud and facilitate safer money transfers. Netverify's authentication process minimizes risk while helping you meet anti-money laundering and know-your-customer (KYC) requirements. Netverify is not only for web and mobile applications .</p>
+          <div class="dialogue-box vertical-align-container">
+            <div class="vertical-align-content">
+              <p>your.id makes online transactions easier and safer by verifying the identity of sellers and buyers alike. Consumer frustration is eliminated by providing a painless account creation process that leads to a streamlined checkout, without worrying about rejected transactions.</p>
+            </div>
           </div>
           <h3 class="dialogue-box--heading"><i class="dialogue-box--icon-IV"></i> Online Market Places</h3>
         </div>
@@ -140,8 +149,10 @@
     
     <section class="landing--section light-blue-bg">
       <div class="container margin-auto">
+        <div class="anchor" id="third" style="bottom: auto; top: -50px;"></div>
         <h2 class="landing--heading">How it Works</h2>
-        <p class="align-center" style="padding: 40px 68px 10px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        <p class="align-center" style="padding: 10px 68px 0">Proving who you are should be easy and fast, reliable and secure. You should be able to convey your identity to whomever you choose, whenever you want, no matter where you are. </p> 
+        <p class="align-center"><strong>your.id</strong> creates a seamless identity verification experience from the consumer to the relying party.</p>
         <div class="align-center" style="margin-top: 50px;">
           <img src="../images/how-it-works-ii.png" style="width: 21%"/>
           <img src="../images/how-it-works-i.png" style="width: 58px; margin: 0 45px"/>
@@ -153,6 +164,7 @@
     </section>
     
     <section class="landing--section container margin-auto">
+      <div class="anchor" id="fourth" style="bottom: auto; top: -50px;"></div>
       <h2 class="landing--heading">Explore <i class="logo-small hide-text">your.id</i> features for web and mobile platforms.</h2>
       <div class="row">
         <div class="col-md-4">
@@ -192,6 +204,7 @@
     <footer class="landing--footer landing--section">
       <div class="container">
         <div class="contact-form pull-right">
+          <div class="anchor" id="fifth" style="bottom: auto; top: -50px;"></div>
           <h2>Want to know more? Contact us! We respond, guaranteed.</h2>
           <form>
             <fieldset>
@@ -208,7 +221,7 @@
     <script type="text/javascript">
   		  $(document).ready(function(){
   			smoothScroll.init({
-  				speed: 1000,
+  				speed: 3000,
   				easing: 'easeInOutCubic',
   				offset: 0,
   				updateURL: false,
