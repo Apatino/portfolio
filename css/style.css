@@ -1556,6 +1556,10 @@ header .container, .landing--section.container, .footer.container {
   animation: smoothMove 3s infinite;
 }
 
+.slick-slide img {
+  display: inline-block !important;
+}
+
 /* End landing styles */
 
 /* Admin dashboard styles */
