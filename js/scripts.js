@@ -10,8 +10,8 @@ $(document).ready(function(){
   $('.autoplay').slick({
     dots: true,
     autoplay: true,
-    autoplaySpeed: 1000,
-    speed: 1000,
+    autoplaySpeed: 3000,
+    speed: 500,
     fade: true,
     infinite: true,
     cssEase: 'linear',
