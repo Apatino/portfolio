@@ -1310,7 +1310,7 @@ header .container, .landing--section.container, .footer.container {
   position: relative;
   background: #ffffff;
   border: 2px solid #dfe6f1;
-  height: 200px;
+  height: 167px;
   padding: 21px;
   text-align: left;
   margin: 59px 20px 0;
@@ -1417,12 +1417,12 @@ header .container, .landing--section.container, .footer.container {
 }
 
 .icn-checkmark-white {
-  width: 39px;
+  width: 28px;
   height: 22px;
   display: inline-block;
-  background: url("../images/icn-checkmark.png") 16px 1px no-repeat center;
-  background-size: 34px;
-  margin-right: 14px;
+  background: url("../images/icn-checkmark.png") 3px 1px no-repeat;
+  background-size: 22px;
+  margin-right: 9px;
 }
 
 .section-VI ul {
@@ -1485,13 +1485,16 @@ header .container, .landing--section.container, .footer.container {
 
 .anchor {
   position: absolute;
-  bottom: 90px;
 }
 
 .landing--footer {
-  background: #152d51 url('../images/footer-bg.png') 11% center no-repeat;
-  background-size: 230px;
+  background: #152d51;
   height: 431px;
+}
+
+.landing--footer > div {
+  background: url('../images/footer-bg.png') left center no-repeat;
+  background-size: 230px;
 }
 
 .landing--footer h2 {
@@ -1535,14 +1538,23 @@ header .container, .landing--section.container, .footer.container {
   letter-spacing: 0.04em;
 }
 
-.scroll-button {
+.scroll-button a {
   position: relative;
   display: block;
   height: 69px;
+  width: 60px;
+  margin: auto;
 }
 
-
-
+.scroll-button a i {
+  position: absolute;
+  background: url("../images/scroll-button.png") 11px 6px no-repeat;
+  height: 59px;
+  width: 58px;
+  background-size: 32px;
+  -webkit-animation: smoothMove 3s infinite;
+  animation: smoothMove 3s infinite;
+}
 
 /* End landing styles */
 
@@ -1877,19 +1889,6 @@ header .container, .landing--section.container, .footer.container {
   font: normal 300 24px/1.5 "Open sans";
   color: #4C4C4C;
   -webkit-font-smoothing: antialiased;
-}
-
-.scroll-button a {
-  position: absolute;
-  left: 50%;
-  background: url("../images/scroll-button.png") 11px 6px no-repeat;
-  height: 38px;
-  width: 58px;
-  margin: auto;
-  margin-top: 27px;
-  background-size: 32px;
-  -webkit-animation: smoothMove 3s infinite; /* Chrome, Safari, Opera */ 
-  animation: smoothMove 3s infinite;
 }
 
 /* Landing scroll keyframe */
