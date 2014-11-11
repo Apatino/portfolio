@@ -7,4 +7,8 @@ $(document).ready(function(){
 		callbackBefore: function ( toggle, anchor ) {},
 		callbackAfter: function ( toggle, anchor ) {}
 	});
+	$('#devices').parallax("0", 0.4);
+	$('#second').parallax("50%", 0.1);
+	$('.bg').parallax("50%", 0.4);
+	$('#third').parallax("50%", 0.3);
 });
