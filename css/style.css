@@ -1134,6 +1134,10 @@ div .dropdown-menu:before {
 
 /* Landing Styles */
 
+html, body {
+  height: 100%;
+}
+
 .landing a, .landing a:hover, .landing a:active, .landing a:focus {
   text-decoration: none;
   outline: 0;
@@ -1181,7 +1185,7 @@ header .container, .landing--section.container, .footer.container {
   padding: 9px;
   margin-top: 37px;
   font-size: 17px;
-  width: 213px;
+  width: 253px;
   letter-spacing: 0.03em;
 }
 
@@ -1560,6 +1564,29 @@ header .container, .landing--section.container, .footer.container {
   display: inline-block !important;
 }
 
+.slick-slider {
+  margin-bottom: 0 !important;
+}
+
+.slick-dots {
+  display: block;
+  bottom: 11px;
+  left: 20px;
+}
+
+.slick-dots li.slick-active button:before {
+  background-color: black;
+  opacity: 0.75;
+}
+
+.slick-dots li button:before {
+  width: 6px;
+  height: 6px;
+  overflow: hidden;
+  border-radius: 50%;
+  background-color: #000;
+}
+
 /* End landing styles */
 
 /* Admin dashboard styles */
@@ -1904,10 +1931,9 @@ header .container, .landing--section.container, .footer.container {
 }
 
 @keyframes smoothMove {
-    0%   {top: 0px;}
-    25%  {top: 200px;}
-    75%  {top: 50px}
-    100% {top: 100px;}
+    0%   {top: 20px;}
+    50%  {top: 40px}
+    100%  {top: 20px}
 }
 
 
