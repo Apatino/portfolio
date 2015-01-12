@@ -1,0 +1,540 @@
+@import url('normalize-clearfix.css');
+@import url('simplegrid.css');
+
+/* Base */
+
+body {
+  color: #545454;
+  font: normal  14px/1.5 "Open Sans", sans-serif;
+  text-align: center;
+  background-color: #ebebeb;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: #51a7f9;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 400;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+[class*='col-'] {
+  padding: 0;
+}
+
+/* end base  */
+
+/* Common & modules */
+
+.white-bg {
+  background-color: #fff;
+}
+
+.dark-blue-bg {
+  background-color: #142d51;
+  color: #fff;
+}
+
+.dark-blue-bg:hover {
+  background-color: #0e203b;
+}
+
+.dark-gray-bg {
+  background-color: #33373a;
+}
+
+.light-gray-bg {
+  background-color: #f8f9fa;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.padding-1 {
+  padding: 0 60px;
+}
+
+.margin-reset {
+  margin: 0 !important;
+}
+
+.padding-reset {
+  padding: 0 !important;
+}
+
+.element-reset {
+  border: none;
+}
+
+.element-reset:focus, .element-reset:hover {
+  text-decoration: none;
+  outline: none;
+}
+
+.button {
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 1.1em;
+  letter-spacing: 0.06em;
+  height: 49px;
+  padding: 10px 25px;
+}
+
+.padding-2 {
+  padding-top: 65px;
+  padding-bottom: 41px;
+}
+
+.vertical-align {
+  display: table;
+  margin: auto;
+  height: 100%;
+}
+
+.vertical-align--content {
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.margin-auto {
+  margin: auto;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+/* end of Common & modules */
+
+/* Specifics */ 
+
+.main-frame {
+  margin-top: 40px;
+}
+
+.nav--list-item {
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.nav--list-item a {
+  color: #a2a2a2;
+  display: block;
+  font-weight: 600;
+  padding: 30px 36px;
+}
+
+.nav--list-item a:hover {
+  color: #6F6F6F;
+  background-color: #f8f9fa;
+}
+
+.header {
+  height: 490px;
+  background: url('../images/image-3.png') no-repeat;
+  background-size: cover;
+}
+
+.header--headingI, .header--headingII {
+  font-weight: 300;
+  color: #33373a;
+}
+
+.header--headingI {
+  font-size: 4.5em;
+  margin-bottom: 0;
+}
+
+.header--headingII {
+  font-size: 2em;
+  margin-top: 6px;
+  margin-bottom: 40px;
+}
+
+.header--button {
+  width: 237px;
+  font-size: 1.4em;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner--paragraph {
+  font-size: 1.5em;
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: 0.03em;
+}
+
+.section--heading {
+  color: #33414d;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.idq--heading {
+  padding-top: 50px;
+  text-align: left;
+}
+
+.section--paragraph {
+  color: #7c888f;
+  line-height: 2;
+  width: 90%;
+}
+
+.idq--container {
+  text-align: left;
+}
+
+.idq--graph{
+  text-align: center;
+  margin: 28px auto 0;
+  display: block;
+  position: relative;
+  width: 276px;
+  height: 325px;
+}
+
+.idq--image {
+  position: relative;
+}
+
+.idq--list-item {
+  position: absolute;
+  z-index: 1;
+}
+
+.idq--list-itemI {
+  left: -79px;
+  top: 61px;
+}
+
+.idq--list-itemII {
+  left: 100px;
+  top: -27px;
+}
+
+.idq--list-itemIII {
+  left: 276px;
+  top: 62px;
+}
+
+.idq--list-itemIV {
+  left: 276px;
+  top: 211px;
+}
+
+.idq--list-itemV {
+  left: 102px;
+  top: 298px;
+}
+
+.idq--list-itemVI {
+  left: -37px;
+  top: 211px;
+}
+
+.features {
+  height: 445px;
+  background: url('../images/image-4.png') no-repeat;
+  background-size: cover;
+  color: #fff;
+  text-align: left;
+}
+
+.features--heading {
+  font-size: 1.5em;
+  letter-spacing: 0.05em ;
+  font-weight: 600;
+}
+
+.features-list-item {
+  margin-top: 12px;
+}
+
+.features--paragraph {
+  vertical-align: top;
+  margin-top: 0;
+  line-height: 1.8;
+  letter-spacing: 0.05em;
+}
+
+.steps--paragraph {
+  margin-top: 0;
+  margin-bottom: 35px;
+}
+
+.devices {
+  height: 445px;
+  background: url('../images/image-10.png') center right no-repeat;
+  background-size: cover;
+}
+
+.devices--vertical {
+  width: 100%;
+  color: #fff;
+  text-align: left;
+}
+
+.devices--paragraph {
+  letter-spacing: 0.05em;
+  line-height: 2;
+}
+
+.dialogue-box {
+  position: relative;
+  margin: 30px;
+  padding: 3px 23px;
+  height: 189px;
+  text-align: justify;
+}
+
+.dialogue-box:after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 33px 48px 0 0;
+  border-color: #f8f9fa transparent transparent transparent;
+  bottom: -33px;
+  left: 40px;
+}
+
+.dialogue--paragraph {
+  line-height: 1.6;
+  color: #545454;
+  font-size: 1.1em;
+}
+
+.dialogue--heading {
+  display: inline-block;
+  color: #545454;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+
+.landing--footer {
+  height: 133px;
+  padding-top: 39px;
+  background:  #fafafa url('../images/image-12.png') 92% center no-repeat;
+  margin-bottom: 40px;
+}
+
+.landing--footer * {
+  vertical-align: middle;
+}
+
+.landing--footer:before {
+  content: '';
+  display: block;
+  height: 133px;
+  width: 100%;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+  background-color: #f0f0f0;
+  margin-top: -40px;
+}
+
+.footer--paragraph {
+  font-weight: 300;
+}
+
+/* end of specifics */
+
+/* Icons & blocks */ 
+
+.logo {
+  background: url('../images/image-2.png') no-repeat;
+  background-size: 100%;
+  display: inline-block;
+  height: 44px;
+  margin-top: 20px;
+  vertical-align: middle;
+  width: 130px;
+}
+
+.banner--triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 64px 50px 0;
+  border-color: transparent #33373a transparent transparent;
+  position: absolute;
+  bottom: -40px;
+  right: 0;
+}
+
+.icn {
+  display: inline-block;
+  vertical-align: middle;
+  background: url('../images/sprites 2.png') no-repeat;
+}
+
+.social {
+  display: block;
+  height: 45px;
+  width: 45px;
+  background-color: #5A5A5A;
+  border-radius: 50%;
+  background-size: 190px;
+  margin-right: 15px;
+}
+
+.social:hover {
+  background-color: #33373a;
+}
+
+.twitter {
+  background-position: -78px -5px;
+}
+
+.facebook {
+  background-position: -154px -7px;
+}
+
+.linkedin {
+  background-position: -119px -7px;
+}
+
+.consumers {
+  height: 47px;
+  width: 43px;
+  background-size: 499px;
+  background-position: -132px -72px;
+  vertical-align: bottom;
+}
+
+.institutions {
+  height: 57px;
+  width: 68px;
+  background-size: 459px;
+  background-position: -2px -5px;
+  vertical-align: bottom;
+}
+
+.retailers {
+  height: 47px;
+  width: 46px;
+  background-size: 499px;
+  background-position: -120px 0;
+  vertical-align: bottom;
+}
+
+.ecomerce {
+  height: 47px;
+  width: 53px;
+  background-size: 402px;
+  background-position: -3px -73px;
+  vertical-align: bottom;
+}
+
+[class*='benefits-I'] {
+  height: 70px;
+  width: 70px;
+  background-size: 494px;
+}
+
+.benefits-I {
+  background-position: -213px -146px;
+}
+
+.benefits-II {
+  background-position: -321px -146px ;
+}
+
+.benefits-III {
+  background-position: -425px -146px ;
+}
+
+.left {
+  border-color: #33373a transparent transparent transparent;
+  right: auto;
+  left: 0;
+  border-width: 50px 64px 0 0;
+}
+
+.icn-checkmark {
+  display: inline-block;
+  vertical-align: top;
+  background: url('../images/sprites 2.png') -497px -5px no-repeat;
+  width: 26px;
+  height: 21px;
+  margin: 4px 6px 0 0;
+}
+
+.steps {
+  height: 445px;
+}
+
+.steps--container {
+  height: 70%;
+}
+
+.steps .content {
+  height: 100%;
+}
+
+.steps--hexagonI {
+  background: url('../images/image-8.png') no-repeat;
+}
+
+.steps--hexagonII {
+  background: url('../images/image-7.png') no-repeat;
+}
+
+.steps--hexagonIII {
+  background: url('../images/image-6.png') no-repeat;
+}
+
+.steps--hexagon {
+  height: 92%;
+  width: 74%;
+  display: block;
+  background-size: cover;
+  margin: auto;
+}
+
+.steps--arrow{
+  height: 85%;
+  width: 100%;
+  display: block;
+  background: url('../images/image-5.png') center no-repeat;
+  background-size: 54% auto;
+}
+
+.icn-white-logo {
+  display: inline-block;
+  vertical-align: middle;
+  width: 130px;
+  height: 38px;
+  background: url('../images/image-11.png') no-repeat;
+  background-size: cover;
+  margin: 0 5px;
+}
+
+/* end of Icons & blocks */
