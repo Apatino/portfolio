@@ -445,7 +445,7 @@ p {
   vertical-align: bottom;
 }
 
-.ecomerce {
+.ecommerce {
   height: 47px;
   width: 53px;
   background-size: 402px;
@@ -538,3 +538,158 @@ p {
 }
 
 /* end of Icons & blocks */
+
+/* Media query */
+
+@media (max-width: 767px) {
+  [class*='col-'] {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .padding-1 {
+    padding: 0 39px;
+  }
+  .padding-2 {
+    padding-top: 45px;
+    padding-bottom: 31px;
+  }
+  .logo, nav ul {
+    float: none;
+  }
+  .header {
+    margin: 0;
+  }
+  .header--headingI {
+    padding-top: 60px;
+    margin-top: 0;
+  }
+  .idq--heading {
+    padding: 0;
+    text-align: center;
+  }
+  .section--paragraph {
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  .steps {
+    height: auto;
+  }
+  .arrow {
+    display: none;
+  }
+  .steps--container {
+    height: 190px;
+    width: 203px;
+    float: left;
+  }
+  .steps--paragraph {
+    margin-bottom: 0;
+  }
+  .devices--paragraph {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.72);
+    padding: 51px;
+    width: 72%;
+    margin: auto;
+  }
+  .dialogue {
+    margin-bottom: 60px;
+  }
+  .consumers, .retailers,
+  .institutions, .ecommerce {
+    margin-left: 28px;
+  }
+}
+
+@media (max-width: 610px) {
+  nav ul {
+    padding: 0;
+  }
+  .section--paragraph {
+    width: 100%;
+  }
+  .features--heading {
+    text-align: center;
+  }
+  .features-list-item {
+    text-align: center;
+  }
+  .icn-checkmark {
+    margin: 30px auto 0;
+    display: block;
+  }
+  .steps--container {
+    float: none;
+    margin: auto;
+  }
+  .dialogue-box {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .idq--list-itemI {
+    left: -49px;
+    top: 31px;
+  }
+  .idq--list-itemIII {
+    left: 256px;
+    top: 31px;
+  }
+}
+
+@media (max-width: 454px) {
+  .main-frame {
+    padding: 0;
+    margin: 0;
+  }
+  nav ul {
+    width: 100%;
+  }
+  .padding-1 {
+    padding-top: 49px;
+    padding-bottom: 39px;
+  }
+  .nav--list-item {
+    display: block;
+  }
+  .header {
+    height: 540px;
+  }
+  .idq {
+    margin-bottom: 40px;
+  }
+  .features--heading {
+    margin-top: 0;
+  }
+  .features {
+    height: auto;
+  }
+  .devices {
+    height: auto;
+    padding: 20px;
+  }
+  .devices--paragraph {
+    width: 100%;
+    height: 220px;
+    padding: 40px 0;
+  }
+  .dialogue-box {
+    height: auto;
+  }
+  .consumers, .retailers, 
+  .institutions, .ecommerce {
+    margin-left: 0;
+  }
+  .landing--footer {
+    background-position: center 170px;
+    height: 250px;
+    background-size: 50px;
+  }
+  .landing--footer * {
+    text-align: center;
+  }
+  .landing--footer ul {
+    display: block; 
+  }
+}
+
+
