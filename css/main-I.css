@@ -177,6 +177,7 @@ p {
 
 .banner {
   position: relative;
+  padding: 60px 0;
 }
 
 .banner--paragraph {
@@ -303,41 +304,6 @@ p {
   font-size: 1.7em;
 }
 
-.dialogue-box {
-  position: relative;
-  margin: 30px;
-  padding: 3px 23px;
-  height: 189px;
-  text-align: justify;
-}
-
-.dialogue-box:after {
-  position: absolute;
-  content: "";
-  display: block;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 33px 48px 0 0;
-  border-color: #f8f9fa transparent transparent transparent;
-  bottom: -33px;
-  left: 40px;
-}
-
-.dialogue--paragraph {
-  line-height: 1.6;
-  color: #545454;
-  font-size: 1.1em;
-}
-
-.dialogue--heading {
-  display: inline-block;
-  color: #545454;
-  font-size: 1.5em;
-  margin-bottom: 20px;
-  font-weight: 300;
-}
-
 .landing--footer {
   height: 133px;
   padding-top: 39px;
@@ -363,6 +329,24 @@ p {
 
 .footer--paragraph {
   font-weight: 300;
+}
+
+.arrow-left {
+  margin-right: 20px;
+}
+
+.arrow-right {
+  margin-left: 20px;
+}
+
+.paragraph--list {
+  line-height: 1.2;
+  width: auto;
+}
+
+.comparison--container {
+  height: 130px;
+  margin: 11px 0;
 }
 
 /* end of specifics */
@@ -394,6 +378,20 @@ p {
   display: inline-block;
   vertical-align: middle;
   background: url('../images/sprites 2.png') no-repeat;
+}
+
+.user, .company {
+  margin-top: 15px;
+  height: 60px;
+  width: 60px;
+}
+
+.user {
+  background-position: 1px -172px;
+}
+
+.company {
+  background-position: -64px -167px;
 }
 
 .social {
@@ -538,6 +536,22 @@ p {
   margin: 0 5px;
 }
 
+.bullet {
+  border-radius: 50%;
+  display: inline-block;
+  height: 8px;
+  width: 8px;
+  margin: 4px 0;
+}
+
+.bullet-left {
+  margin-right: 77px;
+}
+
+.bullet-right {
+  margin-left: 77px;
+}
+
 /* end of Icons & blocks */
 
 /* Media query */
@@ -593,13 +607,6 @@ p {
     width: 72%;
     margin: auto;
   }
-  .dialogue {
-    margin-bottom: 60px;
-  }
-  .consumers, .retailers,
-  .institutions, .ecommerce {
-    margin-left: 28px;
-  }
 }
 
 @media (max-width: 610px) {
@@ -622,10 +629,6 @@ p {
   .steps--container {
     float: none;
     margin: auto;
-  }
-  .dialogue-box {
-    margin-left: 0;
-    margin-right: 0;
   }
   .idq--list-itemI {
     left: -49px;
@@ -672,13 +675,6 @@ p {
     width: 100%;
     height: 220px;
     padding: 40px 0;
-  }
-  .dialogue-box {
-    height: auto;
-  }
-  .consumers, .retailers, 
-  .institutions, .ecommerce {
-    margin-left: 0;
   }
   .landing--footer {
     background-position: center 170px;
