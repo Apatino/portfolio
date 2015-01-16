@@ -6,6 +6,11 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" type="text/css">
     
+    <!-- jQuery -->
+    <script src="../js/jquery-1.11.0.min.js"></script>
+    <!-- Smooth scroll -->
+    <script src="../js/smooth-scroll.js"></script>
+    
     <!-- CSS -->
     <link rel="stylesheet" href="../css/main-I.css">
     
@@ -15,22 +20,22 @@
 
   <body>
    <div class="grid white-bg main-frame">
-     <div class="col-1-1">
+     <div class="col-1-1 fixed-nav">
        <div class="content padding-1">
          <h1 class="logo pull-left hide-text">your.id</h1>
          <nav class="clearfix">
             <ul class="pull-right margin-reset">
               <li class="nav--list-item">
-                <a href="#">How it works</a>
+                <a href="#features" data-scroll data-options="easing: linear">Features</a>
               </li>
               <li class="nav--list-item">
-                <a href="#">features</a>
+                <a href="#HowItWorks" data-scroll data-options="easing: linear">How it works</a>
               </li>
               <li class="nav--list-item">
-                <a href="#">Contact Us</a>
+                <a href="#contact" data-scroll data-options="easing: linear">Contact Us</a>
               </li>
               <li class="nav--list-item">
-                <a href="#" class="demo">Ask for a demo</a>
+                <a href="mailto:simon.persoff@smartmatic.com" class="demo" data-scroll data-options="easing: linear">Ask for a demo</a>
               </li>
             </ul>
           </nav>
@@ -123,6 +128,7 @@
        </span>
      </section>
      <section class="col-1-1 features">
+       <span class="anchor" id="features"></span>
        <div class="content vertical-align">
          <div class="vertical-align--content padding-1">
            <h3 class="features--heading">Features and Benefits</h3>
@@ -159,6 +165,7 @@
        </div>
      </section>
      <section class="col-1-1 dark-gray-bg banner">
+       <span class="anchor" id="HowItWorks"></span>
        <div class="content">
         <p class="banner--paragraph margin-reset">How It Works</p>
         <i class="banner--triangle"></i>
@@ -218,10 +225,11 @@
         <p class="banner--paragraph inline-block">Request for a demo, we would love to hear from you</p>
       </div>
       <div class="col-4-12">
-        <button class="element-reset dark-gray-bg button header--button inline-block">Ask for a demo</button>
+        <a href="mailto:simon.persoff@smartmatic.com" class="element-reset dark-gray-bg button header--button inline-block">Ask for a demo</a>
       </div>
     </section>
     <section class="col-1-1 contact text-align-left padding-1 padding-2 dark-gray-bg">
+      <span class="anchor" id="contact"></span>
       <div class="col-1-2">
         <h3 class="section--heading">Email us, we actually respond.</h3>
         <div class="content">
@@ -241,9 +249,9 @@
       <div class="col-1-2">
         <div class="content clearfix">
           <ul class="padding-reset pull-right">
-            <li><a href="#" class="hide-text icn social twitter">Twitter</a></li>
-            <li><a href="#" class="hide-text icn social linkedin">LinkedIn</a></li>
-            <li><a href="#" class="hide-text icn social facebook">Facebook</a></li>
+            <li><a href="https://twitter.com/Your_id2013" class="hide-text icn social twitter">Twitter</a></li>
+            <li><a href="https://www.linkedin.com/company/your.id" class="hide-text icn social linkedin">LinkedIn</a></li>
+            <li><a href="https://www.facebook.com/pages/Yourid/909876609031698" class="hide-text icn social facebook">Facebook</a></li>
           </ul>
         </div>
       </div>
@@ -252,5 +260,17 @@
       <p><sub>&#169; 2015 your.id. All Rights Reserved.</sub></p>
     </footer>
    </div>
+   <script type="text/javascript">
+ 		  $(document).ready(function(){
+ 			smoothScroll.init({
+ 				speed: 1500,
+ 				easing: 'easeInOutCubic',
+ 				offset: 0,
+ 				updateURL: false,
+ 				callbackBefore: function ( toggle, anchor ) {},
+ 				callbackAfter: function ( toggle, anchor ) {}
+ 			});
+ 		});
+ 	</script>
   </body>
 </html>

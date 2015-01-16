@@ -43,9 +43,13 @@ label {
 
 input[type="text"], input[type="email"],
 textarea {
-  border: none;
-  
+  border: none; 
 }
+
+section {
+  position: relative;
+}
+
 /* end base  */
 
 /* Common & modules */
@@ -75,6 +79,7 @@ textarea {
 button.dark-gray-bg:hover, a.dark-gray-bg:hover,
 input[type="submit"].dark-gray-bg:hover {
   background-color: #1F2124;
+  color: #fff;
 }
 
 .light-gray-bg {
@@ -153,7 +158,22 @@ input[type="submit"].dark-gray-bg:hover {
 /* Specifics */ 
 
 .main-frame {
-  margin-top: 40px;
+  margin-top: 84px;
+}
+
+.fixed-nav {
+  position: fixed;
+  top: 0;
+  z-index: 29;
+  width: 1140px;
+  background: #fff;
+  border-bottom: 1px solid #F0F0F0;
+}
+
+.anchor {
+  display: block;
+  top: -84px;
+  position: absolute;
 }
 
 .nav--list-item {
@@ -365,6 +385,7 @@ input[type="submit"].dark-gray-bg:hover {
 
 .contact {
   height: 440px;
+  position: relative;
 }
 
 .contact .section--heading {
