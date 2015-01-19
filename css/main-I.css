@@ -619,15 +619,17 @@ input[type="submit"].dark-gray-bg:hover {
   display: inline-block;
   height: 8px;
   width: 8px;
-  margin: 4px 0;
+  margin: 33px 0 0;
 }
 
 .bullet-left {
-  margin-right: 77px;
+  margin-left: 8px;
+  float: left;
 }
 
 .bullet-right {
-  margin-left: 77px;
+  margin-right: 8px;
+  float: right;
 }
 
 /* end of Icons & blocks */
