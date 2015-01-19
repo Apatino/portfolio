@@ -110,6 +110,10 @@ input[type="submit"].dark-gray-bg:hover {
   padding: 0 !important;
 }
 
+.margin-bottom-reset {
+  margin-bottom: 0 !important;
+}
+
 .element-reset {
   border: none;
 }
@@ -202,7 +206,7 @@ input[type="submit"].dark-gray-bg:hover {
 }
 
 .header {
-  height: 490px;
+  height: 450px;
   background: url('../images/image-3.png') no-repeat;
   background-size: cover;
 }
