@@ -206,7 +206,7 @@ input[type="submit"].dark-gray-bg:hover {
 }
 
 .header {
-  height: 450px;
+  height: 436px;
   background: url('../images/image-3.png') no-repeat;
   background-size: cover;
 }
@@ -234,8 +234,8 @@ input[type="submit"].dark-gray-bg:hover {
 
 .banner {
   position: relative;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .banner-II {
