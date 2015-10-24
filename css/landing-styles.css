@@ -91,14 +91,6 @@ a, a:hover {
   text-align: center;
 }
 
-.col-1-1 {
-  width: 100%;
-}
-
-.col-1-5 {
-  width: 20%;
-}
-
 .landing-section {
   min-height: 380px;
   position: relative;
