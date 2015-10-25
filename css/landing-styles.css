@@ -95,6 +95,13 @@ a, a:hover {
   text-align: center;
 }
 
+.gallery-section--title {
+  font-size: 2.4em;
+  color: #0a3940;
+  font-family: 'Source Sans Pro', Verdana, 'Helvetica neue';
+  margin: 10px 27px 16px
+}
+
 .landing-section {
   min-height: 380px;
   position: relative;
@@ -357,9 +364,19 @@ a, a:hover {
 .images-popup {
   position: relative;
   background: #FFF;
-  padding: 20px;
-  width: 50%;
-  max-width: 1170px;
-  margin: 20px auto;
+  padding-top: 20px;
+  width: 60%;
+  max-width: 930px;
+  margin: 50px auto;
   display: block;
+}
+
+.mfp-close-btn-in .mfp-close {
+  top: -40px;
+  right: -15px;
+  color: #fff;
+}
+
+.images-popup--content {
+  width: 100%;
 }
