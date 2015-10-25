@@ -145,16 +145,16 @@ a, a:hover {
 
 .section-preview--button {
   position: absolute;
-  left: 16%;
+  left: 12%;
   top: 43%;
   color: #fff;
-  font-size: 1.6em;
+  font-size: 1.4em;
   font-weight: 800;
   display: block;
   border-radius: 5px;
   padding: 11px;
   border: 2px solid #fff;
-  width: 237px;
+  width: 267px;
   text-transform: uppercase;
 }
 
