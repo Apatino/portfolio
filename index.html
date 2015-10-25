@@ -11,6 +11,9 @@
     <link rel="shortcut icon" href="images/favicon.png"/>
     <link rel="shortcut icon" href="images/favicon.png"/>
     
+    <!-- Magnific Popup core CSS file -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    
     <!-- Fonts -->
 		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300" rel="stylesheet" type="text/css" />
     
@@ -18,7 +21,7 @@
     <script src="js/jquery-1.11.0.min.js"></script>
     
     <!-- Lightbox -->
-    <script src="js/lightbox.min.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
     
     <!-- Smooth scroll -->
     <script src="js/smooth-scroll.js"></script>
@@ -55,7 +58,7 @@
                   <a href="#contact" data-scroll data-options="easing: linear" class="nav--anchor color-dark-green responsive-nav--anchor">Contact</a>
                 </p>
               </li>
-            </ul>
+            </ul>            
           </nav>
         </div>
         <img src="images/whale.png" class="illustration--element whale" />
@@ -105,6 +108,16 @@
           </li>
         </ul>
       </div>
+      <div class="container">
+          <ul class="clearfix align-center">
+              <li>
+                  <a href="popup/web-design.html" class="ajax-popup-link"><img src="images/thumbs/1.jpg" class="border-radius-5 col-1-1 light-border"></a>
+                  <div id="test-popup" class="white-popup mfp-hide">
+                      Popup content
+                  </div>
+              </li>
+          </ul>
+      </div>
       <div class="anchor" id="contact"></div>
     </section>
     <section class="landing-section landing-section--height">
@@ -133,6 +146,9 @@
   				callbackBefore: function ( toggle, anchor ) {},
   				callbackAfter: function ( toggle, anchor ) {}
   			});
+        $('.ajax-popup-link').magnificPopup({
+                                 type: 'ajax'
+         		  });
   		});
   	</script>
 	</body>

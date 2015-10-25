@@ -352,3 +352,14 @@ a, a:hover {
     top: 20%;
   }
 }
+
+	/* Moar */		
+.images-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width: 50%;
+  max-width: 1170px;
+  margin: 20px auto;
+  display: block;
+}
