@@ -288,192 +288,7 @@ a {
   font-weight: 600;
   font-size: 1.3em;
 }
-.skills .chart {
-  height: 300px;
-  width: 330px;
-  float: right;
-  position: relative;
-}
-.skills .chart .chart_bg {
-  background-color: #e8e8e8;
-  position: absolute;
-  width: 296px;
-  height: 296px;
-  -webkit-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
-  border-radius: 50%;
-}
-.skills .chart .hold {
-  position: absolute;
-  width: 296px;
-  height: 296px;
-  -webkit-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
-  border-radius: 50%;
-  clip: rect(0, 148px, 296px, 0);
-}
-.skills .chart .slice1 .slice, .skills .chart .slice2 .slice, .skills .chart .slice3 .slice, .skills .chart .slice4 .slice, .skills .chart .slice5 .slice {
-  position: absolute;
-  width: 296px;
-  height: 296px;
-  -webkit-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
-  border-radius: 50%;
-  clip: rect(0, 148px, 296px, 0);
-}
-.skills .chart .slice1 .slice {
-  background: #71d1e2;
-  -webkit-transform: rotate(72deg);
-  -ms-transform: rotate(72deg);
-  -moz-transform: rotate(72deg);
-  -o-transform: rotate(72deg);
-  transform: rotate(62deg);
-}
-.skills .chart .slice2.hold {
-  clip: rect(0, 296px, 296px, 0);
-}
-.skills .chart .slice2.hold .slice {
-  background: #b8e5ec;
-  -webkit-transform: rotate(252deg);
-  -ms-transform: rotate(252deg);
-  -moz-transform: rotate(252deg);
-  -o-transform: rotate(252deg);
-  transform: rotate(242deg);
-}
-.skills .chart .slice3.hold {
-  clip: rect(0, 296px, 296px, 148px);
-}
-.skills .chart .slice3.hold .slice {
-  background: #14bacd;
-  -webkit-transform: rotate(152deg);
-  -ms-transform: rotate(152deg);
-  -moz-transform: rotate(152deg);
-  -o-transform: rotate(152deg);
-  transform: rotate(141px);
-}
-.skills .chart .slice4.hold {
-  clip: rect(0, 296px, 296px, 148px);
-}
-.skills .chart .slice4.hold .slice {
-  background: #71d1e2;
-  -webkit-transform: rotate(81deg);
-  -ms-transform: rotate(81deg);
-  -moz-transform: rotate(81deg);
-  -o-transform: rotate(81deg);
-  transform: rotate(141px);
-}
-.skills .chart .slice5.hold {
-  clip: rect(0, 296px, 296px, 148px);
-}
-.skills .chart .slice5.hold .slice {
-  background: #14bacd;
-  -webkit-transform: rotate(13deg);
-  -ms-transform: rotate(13deg);
-  -moz-transform: rotate(13deg);
-  -o-transform: rotate(13deg);
-  transform: rotate(13deg);
-}
-.skills .chart hr {
-  position: absolute;
-  top: 171px;
-  left: -6px;
-  border: 0;
-  border-bottom: 10px solid #f1f2f2;
-  z-index: 1000;
-  width: 155px;
-  -webkit-transform: rotate(-17deg);
-  -ms-transform: rotate(-36deg);
-  -moz-transform: rotate(-36deg);
-  -o-transform: rotate(-36deg);
-  transform: rotate(-36deg);
-  z-index: 1;
-}
-.skills .chart hr:nth-child(4) {
-  -webkit-transform: rotate(62deg);
-  -ms-transform: rotate(62deg);
-  -moz-transform: rotate(62deg);
-  -o-transform: rotate(62deg);
-  transform: rotate(62deg);
-  left: 103px;
-  top: 203px;
-}
-.skills .chart hr:nth-child(6) {
-  -webkit-transform: rotate(-9deg);
-  -ms-transform: rotate(-9deg);
-  -moz-transform: rotate(-9deg);
-  -o-transform: rotate(-9deg);
-  transform: rotate(-9deg);
-  top: 125px;
-  left: 143px;
-}
-.skills .chart hr:nth-child(8) {
-  -webkit-transform: rotate(105deg);
-  -ms-transform: rotate(105deg);
-  -moz-transform: rotate(105deg);
-  -o-transform: rotate(105deg);
-  transform: rotate(105deg);
-  top: 56px;
-  left: 91px;z-index: 1;
-}
-.skills .chart hr:nth-child(10) {
-  -webkit-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
-  top: 62px;
-  left: 72px;
-}
-.skills .chart .chart_center {
-  -webkit-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
-  border-radius: 50%;
-  height: 210px;
-  width: 210px;
-  background: #f1f2f2;
-  border: 10px solid #f1f2f2;
-  position: absolute;
-  left: 43px;
-  top: 43px;
-  z-index: 1000;
-}
-.skills .chart p {
-  text-align: center;
-  font-weight: 600;
-  color: #0a3940;
-  line-height: 19px;
-  display: inline-block;
-  position: relative;
-  top: 50px;
-  left: -120px;
-}
-.skills .chart p:nth-child(14) {
-  top: 240px;
-  left: -179px;
-}
-.skills .chart p:nth-child(15) {
-  top: 195px;
-  right: -110px;
-  left: auto;
-}
-.skills .chart p:nth-child(16) {
-  top: -23px;
-  left: auto;
-  right: -280px;
-}
-.skills .chart p:nth-child(17) {
-  top: -70px;
-  left: auto;
-  right: -100px;
-}
+
 
 .hobbies {
   padding: 40px 0 60px;
@@ -496,8 +311,8 @@ a {
 
 .hexagon {
   position: relative;
-  width: 160px;
-  height: 86.60px;
+  width: 152px;
+  height: 87.6px;
   background-color: #ffffff;
   margin: 32.3px 0;
   border-left: solid 5px #14bacd;
@@ -515,17 +330,17 @@ a {
   -ms-transform: scaleY(0.5774) rotate(-45deg);
   transform: scaleY(0.5774) rotate(-45deg);
   background-color: inherit;
-  left: 18.967px;
+  left: 17.967px;
 }
 
 .hexagon:before {
-  top: -56.033px;
+  top: -53.033px;
   border-top: solid 7.0711px #14bacd;
   border-right: solid 7.0711px #14bacd;
 }
 
 .hexagon:after {
-  bottom: -57.033px;
+  bottom: -53.033px;
   border-bottom: solid 7.0711px #14bacd;
   border-left: solid 7.0711px #14bacd;
 }
