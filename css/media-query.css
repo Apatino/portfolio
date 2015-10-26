@@ -46,12 +46,16 @@
     top: -29px;
     left: -6px;
   }
-  .skills ul {
+  .skills .responsive-list {
     float: none;
     margin-bottom: 100px;
-    margin: 0 auto 100px;
+    margin: 40px auto 100px;
     display: block;
     width: 80%;
+  }
+  .responsive-list li {
+    display: inline-block;
+    width: 49%;
   }
   .skills h3 {
     text-align: center;
@@ -160,6 +164,10 @@
   .landing-section--height {
     height: auto;
   }
+  
+  .skills .chart {
+    width: 374px;
+  }
 }
 
 @media (max-width: 630px) {
@@ -199,77 +207,16 @@
   .skills {
     margin-top: 460px;
   }
-  .skills .chart p {
-    top: -30px;
-    left: -35px;
-  }
-  .skills .chart p:nth-child(14) {
-    left: -132px;
-    top: 287px;
-  } 
-  .skills .chart p:nth-child(15) {
-    right: -20px;
-    top: 233px;
-  }
-  .skills .chart p:nth-child(16) {
-    top: 0;
-    left: auto;
-    right: -270px;
-  }
-  .skills .chart p:nth-child(17) {
-    top: -66px;
-    left: auto;
-    right: -77;
-  }
-  .skills .chart {
-    -ms-transform: scale(0.8,0.8);
-    -webkit-transform: scale(0.8,0.8);
-    transform: scale(0.8,0.8);
-  }
-  .skills .chart p {
-    font-size: 1.3em;
-  }
 }
 
 @media (max-width: 600px) {
+  .responsive-list li {
+    display: inline-block;
+    width: 100%;
+  }
   .col-1-5 {
     width: 100%;
     padding: 20px;
-  }
-  .hexagon {
-    position: relative;
-    width: 119px;
-    height: 67.51px;
-    background-color: #fff;
-    margin: 31.75px 0;
-    border-left: solid 5px #14bacd;
-    border-right: solid 5px #14bacd;
-  }
-
-  .hexagon:before,
-  .hexagon:after {
-    content: "";
-    position: absolute;
-    z-index: 1;
-    width: 77.78px;
-    height: 77.78px;
-    -webkit-transform: scaleY(0.5774) rotate(-45deg);
-    -ms-transform: scaleY(0.5774) rotate(-45deg);
-    transform: scaleY(0.5774) rotate(-45deg);
-    background-color: inherit;
-    left: 12.1091px;
-  }
-
-  .hexagon:before {
-    top: -42.8909px;
-    border-top: solid 7.0711px #14bacd;
-    border-right: solid 7.0711px #14bacd;
-  }
-
-  .hexagon:after {
-    bottom: -42.8909px;
-    border-bottom: solid 7.0711px #14bacd;
-    border-left: solid 7.0711px #14bacd;
   }
   .hobbies ul li div i {
     height: 56px;
