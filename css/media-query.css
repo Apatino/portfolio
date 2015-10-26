@@ -14,15 +14,12 @@
     float: left;
   }
   .skills {
-    margin-top: 360px;
-  }
-  .container .main .timeline-education {
-    border-right: 0;
+    margin-top: 170px;
   }
   .container .main .timeline-education span {
-    left: 34px;
+    left: 20px;
     margin-right: 9px;
-    top: -67px;
+    top: -108px;
     vertical-align: top;
   }
   .container .main .timeline-education span:nth-child(3) {
@@ -34,7 +31,6 @@
     top: 35px;
     left: 9px;
   }
-  
   .container .main .timeline-education p:nth-child(1) {
     position: relative;
     top: 93px;
@@ -43,8 +39,8 @@
     margin-top: 68px;
   }
   .container .main .timeline-education h3 {
-    top: -29px;
-    left: -6px;
+    top: -84px;
+    left: 7px;
   }
   .skills .responsive-list {
     float: none;
@@ -81,7 +77,9 @@
     margin-left: auto;
     margin-right: auto;
   }
- 
+  .container .main {
+    width: 78%;
+  }
 }
 
 
@@ -138,9 +136,6 @@
   .container .main .time-line span hr {
     width: 18px;
   }
-  .container .main .timeline-education {
-    width: 122%;
-  }
   .gallery--thumbnail {
     width: 100%;
   }
@@ -164,9 +159,12 @@
   .landing-section--height {
     height: auto;
   }
-  
   .skills .chart {
-    width: 374px;
+    width: 91%;
+    padding: 0 9%;
+  }
+  .container .main .timeline-education {
+    width: 109%;
   }
 }
 
@@ -201,11 +199,14 @@
   .header-II div ul li {
     width: 100%;
   }
+  
+  .container .main .timeline-education {
+    width: 102%;
+    margin-left: -34px;
+  }
+  
   .container .main .timeline-education span:nth-child(3) {
     left: 30px;
-  }
-  .skills {
-    margin-top: 460px;
   }
 }
 
@@ -217,6 +218,10 @@
   .col-1-5 {
     width: 100%;
     padding: 20px;
+  }
+  .hobbies ul li {
+    width: 100%;
+    margin: 10px 0 40px;
   }
   .hobbies ul li div i {
     height: 56px;
