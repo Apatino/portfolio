@@ -181,17 +181,7 @@ body {
 		padding-left: 20px; /* grid-space to left */
 		padding-right: 10px; /* grid-space to right: (grid-space-left - column-space) e.g. 20px-10px=10px */
 	}
-	
-	[class*='col-'] {
-		width: auto;
-		float: none;
-		margin-left: 0px;
-		margin-right: 0px;
-		margin-top: 10px;
-		margin-bottom: 10px;
-		padding-left: 0px;
-		padding-right: 10px; /* column-space */
-	}
+
 	
 	
 	/* Mobile Layout */

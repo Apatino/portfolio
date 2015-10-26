@@ -1,6 +1,6 @@
 /* Resume */
 
-@media (max-width: 937px) {
+@media (max-width: 1000px) {
   .header-II div h1 {
     top: 34%;
     font-size: 2em;
@@ -77,6 +77,7 @@
     margin-left: auto;
     margin-right: auto;
   }
+ 
 }
 
 
@@ -136,6 +137,29 @@
   .container .main .timeline-education {
     width: 122%;
   }
+  .gallery--thumbnail {
+    width: 100%;
+  }
+  .images-popup {
+    max-width: 100%;
+    width: 95%;
+  }
+  .avatar {
+    float: none;
+    display: block;
+    margin: 29px auto;
+  }
+  .landing-section--paragraph, .landing-section--title {
+    text-align: center;
+    padding: 13px 34px 0;
+  }
+  .landing-section--paragraph {
+    margin-bottom: 50px;
+  }
+
+  .landing-section--height {
+    height: auto;
+  }
 }
 
 @media (max-width: 630px) {
@@ -155,22 +179,6 @@
   .col-1-5 {
     width: 50%;
     float: left;
-  }
-  .avatar {
-    float: none;
-    display: block;
-    margin: 29px auto;
-  }
-  .landing-section--paragraph, .landing-section--title {
-    text-align: center;
-    padding: 13px 34px 0;
-  }
-  .landing-section--paragraph {
-    margin-bottom: 50px;
-  }
-
-  .landing-section--height {
-    height: auto;
   }
   
   .footer-section--paragraph {
