@@ -61,6 +61,7 @@ section img {
   margin: 20px auto 35px;
   width: 80%;
   display: block;
+  border: 1px dotted #BABABA
 }
 
 .text-list {
