@@ -4,7 +4,7 @@ body {
   font-size: 18px;
 }
 
-.container h1, .container h2, .container h3, .container h4 {
+.container h1, .container h2, .container h3, .container h4, .container h5 {
   color: #555;
   font-family: 'Source Sans', 'Helvetica Neue', sans-serif;
   font-weight: 600;
@@ -58,7 +58,9 @@ section.container {
 }
 
 section img {
-  margin-bottom: 35px;
+  margin: 20px auto 35px;
+  width: 80%;
+  display: block;
 }
 
 .text-list {
@@ -72,4 +74,13 @@ section img {
 
 .text-list-item p {
   margin-bottom: 0;
+}
+
+aside {
+  background: #EEE;
+  padding: 31px 31px 2px;
+}
+
+aside h5 {
+  font-size: 1.6em;
 }
